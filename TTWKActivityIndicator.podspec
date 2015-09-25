@@ -23,4 +23,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'WatchKit'
 
   s.source_files = 'Pod/Classes/**/*'
+
+  s.watchos.deployment_target = '1.0'
 end
